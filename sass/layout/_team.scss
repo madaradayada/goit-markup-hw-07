@@ -38,15 +38,6 @@
     margin-bottom: var(--typical-margin);
 }
 
-.team__text {
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--theme-text);
-    margin-bottom: 16px;
-}
-
 .team--ti {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -71,10 +62,9 @@
     align-items: center;
     fill: #afb1b8;
     transition: background-color var(--o-transition), fill var(--o-transition);
-}
-
-.team__soc-link:hover,
-.team__soc-link:focus {
-    background-color: #2196f3;
-    fill: #ffffff;
+    &:hover,
+    &:focus {
+         background-color: #2196f3;
+        fill: #ffffff;
+    }
 }

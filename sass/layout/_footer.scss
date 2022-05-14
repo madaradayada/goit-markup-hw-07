@@ -41,16 +41,6 @@
     font-weight: 400;
 }
 
-.join__soc-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
 .join__soc-list {
     display: flex;
 }
@@ -73,11 +63,10 @@
     align-items: center;
     fill: #ffffff;
     transition: background-color var(--o-transition);
-}
-
-.join__soc-link:hover,
-.join__soc-link:focus {
-    background-color: #2196f3;
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+    }
 }
 
 .online-imputs {
@@ -99,18 +88,6 @@
     background: #2f303a;
     padding: 15px 0 15px 16px;
     color: var(--theme-main);
-}
-
-.online__btn {
-    width: 200px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 1.87;
-    margin-left: 12px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
 }
 
 .contact-wrap .container {

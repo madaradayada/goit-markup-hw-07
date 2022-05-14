@@ -28,10 +28,9 @@
     align-items: center;
     fill: #afb1b8;
     transition: border var(--o-transition), fill var(--o-transition);
-}
-
-.client__soc-link:hover,
-.client__soc-link:focus {
-    fill: #2196f3;
-    border: 1px solid #2196f3;
+    &:hover,
+    &:focus {
+        fill: #2196f3;
+        border: 1px solid #2196f3;
+    }
 }
