@@ -1,0 +1,60 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-logo-color: #000000;
+    --secondary-logo-color: #ffffff;
+    --footer-background-color: #2f303a;
+    --primary-button-text-color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid teal; */
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section--no-padding-top {
+    padding-top: 0;
+}
+
+.section--other-background {
+    background-color: #f5f4fa;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
